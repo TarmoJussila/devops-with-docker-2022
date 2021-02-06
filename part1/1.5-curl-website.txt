@@ -1,0 +1,7 @@
+$ docker container run -d -it --name test ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+$ docker container exec -it test bash
+
+apt-get update; apt-get install curl
+
+$ docker container attach test
