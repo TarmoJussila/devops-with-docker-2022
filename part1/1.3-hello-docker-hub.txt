@@ -1,4 +1,4 @@
-$ docker container run -it devopsdockeruh/pull_exercise
+$ docker run -it devopsdockeruh/pull_exercise
 
 Give me the password: basics
 You found the correct password. Secret message is:
