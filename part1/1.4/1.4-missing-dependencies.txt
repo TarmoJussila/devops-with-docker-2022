@@ -1,0 +1,7 @@
+$ docker run -d -it --name curl-website ubuntu:latest sh -c "set -x; echo 'Input Website:'; read website; echo 'Searching..'; sleep 1; curl https://\$website;"
+
+$ docker exec -it curl-website bash
+
+apt-get update; apt-get install -y curl
+
+$ docker attach curl-website
