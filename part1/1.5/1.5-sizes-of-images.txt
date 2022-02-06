@@ -1,0 +1,10 @@
+Ubuntu image size: 82.99 MB
+Alpine image size: 15.70 MB
+
+$ docker run -it --name secret-alpine devopsdockeruh/simple-web-service:alpine
+
+$ docker exec -it secret-alpine sh
+
+tail -f ./text.log
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
