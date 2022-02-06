@@ -1,3 +1,0 @@
-$ docker build -t curler .
-
-$ docker run -it --name curl-website curler
